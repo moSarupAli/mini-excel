@@ -6,6 +6,7 @@ let addressRowCont = document.querySelector(".address-row-cont");
 let cellsCont = document.querySelector(".cells-cont");
 let addressBar = document.querySelector(".address-bar");
 
+// rows from 1 to 100
 for(let i = 0; i < rows; i++){
   let addressCol = document.createElement("div");
   addressCol.setAttribute("class", "address-col");
@@ -13,6 +14,7 @@ for(let i = 0; i < rows; i++){
   addressColCont.appendChild(addressCol);
 }
 
+// columns from A to Z
 for(let i = 0; i < cols; i++){
   let addressRow = document.createElement("div");
   addressRow.setAttribute("class", "address-row");
@@ -21,6 +23,7 @@ for(let i = 0; i < cols; i++){
 }
 
 
+// 100 x 26 cells
 for(let i = 0; i < rows; i++){
 
   let rowCont = document.createElement("div");

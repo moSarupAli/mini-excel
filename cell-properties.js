@@ -151,6 +151,7 @@ alignment.forEach((alignElem) => {
 
 
 
+
 let allCells = document.querySelectorAll(".cell");
 for(let i = 0; i < allCells.length; i++) {
   addListenerToAttachCellProperties(allCells[i]);
@@ -182,7 +183,7 @@ function addListenerToAttachCellProperties(cell) {
     underline.style.backgroundColor = cellProp.underline ? activeColorProp : inactiveColorProp;
 
     fontColor.value = cellProp.fontColor;
-    BGcolor.value = cellProp.BGcolor
+    BGcolor.value = cellProp.BGcolor;
     fontSize.value = cellProp.fontSize;
     fontFamily.value = cellProp.fontFamily;
 
