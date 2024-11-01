@@ -144,6 +144,9 @@
 .sheet-content {
   width: 5rem;
 }
+.sheet-content:hover {
+  cursor: pointer;
+}
 
 
 
