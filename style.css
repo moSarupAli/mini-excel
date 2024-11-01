@@ -5,9 +5,10 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+
 .page-actions-cont {
   height: 3rem;
-  background-color: #218c74;
   background-color: #a336ec;
   display: flex;
   align-items: flex-end;
@@ -25,8 +26,11 @@
 
 .selected-page-action {
   background-color: #f1f2f6;
-  color: #218c74;
+  color: #a336ec;
 }
+
+
+
 
 .cellprop-actions-cont {
   height: 3rem;
