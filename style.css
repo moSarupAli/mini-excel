@@ -40,7 +40,7 @@
   padding-left: 0.5rem;
 }
 
-.cellprop-actions-cont:hover {
+.cellprop-actions-cont span, select, input:hover {
   cursor: pointer;
 }
 
@@ -197,6 +197,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #77e4b7;
 }
 
 .row-cont {
